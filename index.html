@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%231A2A4C%22 stroke=%22%23F59E0B%22 stroke-width=%2210%22/><text x=%2250%22 y=%2250%22 font-size=%2250%22 fill=%22%23F3F4F6%22 text-anchor=%22middle%22 dy=%22.3em%22 font-family=%22Inter, sans-serif%22 font-weight=%22bold%22>Y</text></svg>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Y-It Book Production System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'yit-bg': 'var(--color-bg)',
+              'yit-bg-secondary': 'var(--color-bg-secondary)',
+              'yit-bg-tertiary': 'var(--color-bg-tertiary)',
+              'yit-border': 'var(--color-border)',
+              'yit-border-light': 'var(--color-border-light)',
+              'yit-accent': 'var(--color-accent)',
+              'yit-accent-hover': 'var(--color-accent-hover)',
+              'yit-text-lightest': 'var(--color-text-lightest)',
+              'yit-text-light': 'var(--color-text-light)',
+              'yit-text-dark': 'var(--color-text-dark)',
+              'yit-green': '#10B981',
+              'yit-blue': '#3B82F6',
+              'yit-cyan': '#06B6D4',
+              'yit-red': '#EF4444',
+              'yit-yellow': '#EAB308',
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      :root {
+        --color-bg: #111827;
+        --color-bg-secondary: #1F2937;
+        --color-bg-tertiary: #374151;
+        --color-border: #4B5563;
+        --color-border-light: #6B7280;
+        --color-accent: #F59E0B;
+        --color-accent-hover: #D97706;
+        --color-text-lightest: #F9FAFB;
+        --color-text-light: #D1D5DB;
+        --color-text-dark: #9CA3AF;
+      }
+      .light {
+        --color-bg: #F9FAFB;
+        --color-bg-secondary: #FFFFFF;
+        --color-bg-tertiary: #F3F4F6;
+        --color-border: #E5E7EB;
+        --color-border-light: #D1D5DB;
+        --color-accent: #F59E0B;
+        --color-accent-hover: #D97706;
+        --color-text-lightest: #111827;
+        --color-text-light: #374151;
+        --color-text-dark: #6B7280;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body id="theme-container" class="bg-yit-bg bg-gradient-to-br from-yit-bg to-[#151e31] dark:from-yit-bg dark:to-[#151e31] light:to-white transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

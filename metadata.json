@@ -1,0 +1,5 @@
+{
+  "name": "Y-It Book Production System",
+  "description": "A web interface to manage and monitor the automated generation of Y-It series books on various side hustle topics, from research to multi-format export.",
+  "requestFramePermissions": []
+}
