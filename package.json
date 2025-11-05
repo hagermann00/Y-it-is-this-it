@@ -6,15 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "agents:setup": "cd agents && npm install && npm run setup",
-    "agents:build": "cd agents && npm run build",
-    "agents:start": "cd agents && npm start",
-    "agents:cli": "cd agents && npm run cli",
-    "agents:api": "cd agents && npm run api",
-    "agents:test": "cd agents && npm run test",
-    "agents:survey": "cd agents && npm run survey",
-    "agents:stats": "cd agents && npm run stats"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react-dom": "^19.2.0",
